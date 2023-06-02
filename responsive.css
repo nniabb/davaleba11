@@ -1,0 +1,156 @@
+
+@media screen and (min-width:760px) {
+    .container{
+        width: 768px;
+        overflow: hidden;
+    }
+
+    .header{
+        padding: 24px 40px 0px 39px;
+    }
+
+    .top{
+        flex-direction: row;
+        padding: 50px 80px 30px 39px;
+    }
+
+    .bottom{
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 24px 40px 0px 39px;
+        gap: 11px;
+    }
+
+    .co{
+        padding: 56px 21px 139px 32px;
+    }
+
+    .footer{
+        margin-top: 86px;
+        padding: 36px 39px 36px 40px;
+    }
+
+    .imageside{
+        position: relative;
+    }
+
+    .purple{
+        display: block;
+        width: 216px;
+        height: 688px;
+        border-radius: 198px;
+        background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+        transform: rotate(45deg);
+        position: absolute;
+        top: -318px;
+        left: 220px;
+    }
+
+    .girlimage{
+        display: none;
+    }
+
+    .tablet{
+        display: block;
+        position: relative;
+        left: 50px;
+        top: -80px;
+    }
+
+    .textside{
+        width: 398px;
+    }
+
+    .member{
+        z-index: 1;
+        top: -95px;
+        left: 200px;
+    }
+
+    .hours{
+        z-index: 1;
+        top: 240px;
+        left: -20px;
+    }
+    
+
+}
+
+
+
+
+@media screen and (min-width:1100px) {
+    .container{
+        width: 1349px;
+    }
+
+    .header{
+        padding: 24px 155px 0px 155px;
+    }
+
+    .top{
+        padding: 80px 0px 30px 155px;
+    }
+
+    .bottom{
+        grid-template-columns: auto auto auto;
+        padding: 20px 155px 0px 155px;
+        gap: 20px;
+    }
+
+    .footer{
+        margin-top: 130px;
+        padding: 27px 155px 27px 155px;
+    }
+
+    .tablet{
+        width: 300px;
+        height: 550px;
+        left: 320px;
+        top: -110px;
+
+    }
+
+    .purple{
+        height: 900px;
+        width: 300px;
+        top: -395px;
+        left: 550px;
+    }
+
+    .member{
+        width: 145px;
+        height: 115px;
+        top: -10px;
+        left: 580px;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    .hours{
+        width: 180px;
+        height: 110px;
+        top: 240px;
+        left: 210px;
+        align-items: flex-start;
+        padding-left: 20px;
+    }
+
+    .firstbutton:hover {
+        transition: 0.3s;
+        background-color: #666CA3;
+    }
+
+    .button2:hover {
+        transition: 0.3s;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+        linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    }
+
+    .last:hover {
+        transition: 0.3s;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+        linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    }
+
+}
